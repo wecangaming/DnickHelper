@@ -22,13 +22,14 @@ public class Day implements CommandExecutor {
 				if(p.hasPermission("dnick.time")) {
 					if(args.length == 0) {
 						p.getWorld().setTime(0);
-						p.sendMessage(Var.Prefix + "ง2Die Zeit wurde auf Tag gestellt!");
-						Bukkit.broadcastMessage(Var.Prefix + "งfงl" + p.getCustomName() + " ง2hat die Zeit auf Tag gestellt!");
+						p.sendMessage(Var.Prefix + "ยง2Die Zeit wurde auf Tag gestellt!");
+						Bukkit.broadcastMessage(Var.Prefix + "ยงfยงl" + p.getCustomName() + " ยง2hat die Zeit auf Tag gestellt!");
 					}
 				}
 			} else {
 				Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "time set 0");
-				console.sendMessage(Var.Prefix + "ง2Du hast die Zeit auf Tag gestellt!");
+				console.sendMessage(Var.Prefix + "ยง2Du hast die Zeit auf Tag gestellt!");
+				Bukkit.broadcastMessage(Var.Prefix + "ยง2Die Konsole hat die Zeit auf Tag gestellt!");
 			}
 			
 		}
