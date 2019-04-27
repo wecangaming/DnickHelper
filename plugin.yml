@@ -27,4 +27,8 @@ commands:
       description: Lasse es Tag werden
    tag:
       description: Lasse es Tag werden
+   clear:
+      description: Claert das Inventar
+   reload:
+      description: Server neuladen
       
