@@ -1,0 +1,30 @@
+main: de.dnickmc.essentials.Main
+name: DnickHelper
+author: DnickMC
+version: 0.5.1 Beta
+description: Hilft beim Verwalten deines Servers
+
+commands:
+   0:
+      description: Setze dich in den Survival Spielmodus
+   1:
+      description: Setze dich in den Creative Spielmodus
+   2:
+      description: Setze dich in den Adventure Spielmodus
+   3:
+      description: Setze dich in den Spectator Spielmodus
+   ns:
+      description: Nachtsicht aktivieren
+   nachtsicht:
+      description: Nachtsicht aktivieren
+   nightvision:
+      description: Nachtsicht aktivieren
+   heal:
+      description: Heilt dich oder einen anderen Spieler
+   feed:
+      description: Der Hunger verschwindet
+   day:
+      description: Lasse es Tag werden
+   tag:
+      description: Lasse es Tag werden
+      
